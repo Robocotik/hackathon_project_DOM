@@ -99,10 +99,7 @@ function checkTemp(){
 };
 
 function chechHeight(){
-    if (height < 10) {
-        isWorked = 0;
-    }
-    if (height > 20) {
+    if (height < 10 || height > 20) {
         isWorked = 0;
     }
 };
